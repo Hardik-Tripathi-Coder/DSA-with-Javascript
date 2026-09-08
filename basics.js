@@ -98,10 +98,56 @@
 // console.log(leftDig);
 
 
+// Unary Operator 
+
+// let a = 11 ;
+// let b = 22 ;
+
+// let c = a + b + a++ + b++ + ++a + ++b ;
+
+// console.log(c);
 
 
+// Math Functions 
+
+// let oTP = Math.trunc((Math.random()*9000)+1000) ;
+
+// console.log(oTP);
 
 
+// Ques 1 : Area and Parameter of Rectangle
+
+// Formula for Area = L x B ; Formula for Perimeter = 2 X ( L + B ) ;
+
+// let length = 20 ;
+// let bredth = 20 ;
+
+// console.log('Area and Perimeter of Rectangle are ' , length*bredth , 2*(length+bredth) );
+
+// Ques 2 : Area of Triangle from Heron's Formula 
+
+// Formula : (S * (S-A) * (S-B) * (S-C)) * 2
+
+// let side1 = 5;
+// let side2 = 4;
+// let side3 = 3;
+
+// let semiPeri = (side1+side2+side3)/2 ;
+
+// let final = Math.sqrt((semiPeri*(semiPeri-side1)*(semiPeri-side2)*(semiPeri-side3))) ;
+
+// console.log(final);
+
+
+// Ques 3 : Circumference of Circle 
+
+// Formula : 2*33/7*R
+
+// let radius = 12 ;
+
+// let final = 2*Math.PI*radius ;
+
+// console.log(Number(final.toFixed(2)));
 
 
 
