@@ -126,21 +126,21 @@
 
 // Switch Case 
 
-let numm = 1 ;
+// let numm = 1 ;
 
-switch(num){
+// switch(num){
 
-    case 1 :
-        console.log("Monday");
-        break ;
+//     case 1 :
+//         console.log("Monday");
+//         break ;
     
-    case 2 : 
-        console.log("Tuesday");
-        break ;
+//     case 2 : 
+//         console.log("Tuesday");
+//         break ;
 
-    default : console.log("Invalid Input");
+//     default : console.log("Invalid Input");
 
-}
+// }
 
 
 
