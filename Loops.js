@@ -83,28 +83,91 @@
 
 // Ques 5 : Prime Numbers
 
-let num = Number(prompt(" Enter Number Pls "));
+// let num = Number(prompt(" Enter Number Pls "));
 
-let flag = false ;
+// let flag = false ;
 
-if(num>0){
+// if(num>0){
 
 // console.log(1);
 
 
-for(let i=2; i<=Math.trunc((num/2)); i++){
+// for(let i=2; i<=Math.trunc((num/2)); i++){
     
     
-    if(num%i==0){
-        flag = true ;
-        console.log("Not a Prime");
-        break
+//     if(num%i==0){
+//         flag = true ;
+//         console.log("Not a Prime");
+//         break
+//     }
+// }
+
+// if(flag==false){
+//     console.log("It's a Prime");
+// }
+
+// }
+
+// Ques 6 : Sum of Digit using while
+
+// let userInp = Number(prompt("Enter Your Number"));
+// let sum = 0 ;
+
+// while(userInp > 0){
+//     sum += userInp % 10 ;
+//     // console.log(sum);
+    
+//     userInp = Math.trunc(userInp/10) ;
+// }
+
+// console.log(sum);
+
+// Ques 7 : Reverse the Number
+
+// let num = Number(prompt("Enter the Number"));
+// let reverse = 0   ;
+
+
+// while(num > 0){
+//     let cal = num % 10
+// reverse = reverse * 10  + cal ;
+// // console.log(reverse);
+
+// num = Math.trunc(num/10);
+// }
+
+// console.log(reverse);
+
+
+
+// Ques 8 : Strong Number 
+
+let userInp = Number(prompt("Enter the Number"));
+let sum = 0 ;
+let factSum = 1;
+let again = 0 ;
+
+while(userInp > 0){
+    sum = userInp%10 ;
+    for(let i=1; i<=sum; i++){
+        factSum *= i ;
     }
+    again += factSum ;
+    console.log(again);
+    
+    factSum = 1 ;
+    userInp = Math.trunc(userInp/10);
 }
 
-if(flag==false){
-    console.log("It's a Prime");
+console.log(factSum);
+
+
+if(again===userInp){
+    console.log("It's a Strong Number",again);
+}
+else{
+    console.log(" Faaaaaaaaaaaahhhh...!! ");
 }
 
-}
+
 
