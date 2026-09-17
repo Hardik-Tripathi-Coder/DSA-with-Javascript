@@ -142,32 +142,70 @@
 
 // Ques 8 : Strong Number 
 
-let userInp = Number(prompt("Enter the Number"));
-let sum = 0 ;
-let factSum = 1;
-let again = 0 ;
+// let userInp = Number(prompt("Enter the Number"));
+// let temp = userInp ;
+// let sum = 0 ;
 
-while(userInp > 0){
-    sum = userInp%10 ;
-    for(let i=1; i<=sum; i++){
-        factSum *= i ;
-    }
-    again += factSum ;
-    console.log(again);
+// let again = 0 ;
+
+// while(userInp > 0){
+//     sum = userInp%10 ;
+//     let factSum = 1;
+//     for(let i=1; i<=sum; i++){
+//         factSum *= i ;
+//     }
+//     again += factSum ;
+
     
-    factSum = 1 ;
-    userInp = Math.trunc(userInp/10);
-}
+//     factSum = 1 ;
+//     userInp = Math.trunc(userInp/10);
+// }
+//     userInp = temp ;
 
-console.log(factSum);
+// if(again===userInp){
+//     console.log("It's a Strong Number",again);
+// }
+// else{
+//     console.log(" Faaaaaaaaaaaahhhh...!! ");
+// }
 
+// Ques 9 : Do - While Loop ( Repeat Hello )
 
-if(again===userInp){
-    console.log("It's a Strong Number",again);
-}
-else{
-    console.log(" Faaaaaaaaaaaahhhh...!! ");
-}
+// let myInp = 0
+// let userInp ;
+
+// do{
+//     userInp = Number(prompt("Enter the Number"))
+// }while(userInp !== 0) ;
+
+// Ques 10 : Guess the Number 
+
+// let comPic = Math.floor(Math.random()*10 + 1) ;
+
+// let guess = -1 ;
+
+// while(comPic !== guess){
+//     guess = Number(prompt("Enter the Number"));
+
+//     if(isNaN(guess) || guess < 1 || guess > 100){
+//         console.log("Try again b/w 0 - 100 ");
+//         continue
+//     }
+
+//     if(comPic > guess){
+//         console.log("To big , try again");
+//     }
+//     else if(comPic < guess){
+//         console.log("To small , try again");
+//     }
+//     else{
+//         console.log(" You are winner ");
+        
+//     }
+// }
+
+// 
+
 
 
 
