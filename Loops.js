@@ -206,6 +206,6 @@
 
 // Ques 10 : Sasta Calculator
 
-
+let usrInp = Number(prompt("Enter the Number"));
 
 
