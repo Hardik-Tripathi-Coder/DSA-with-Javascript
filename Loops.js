@@ -206,6 +206,34 @@
 
 // Ques 10 : Sasta Calculator
 
-let usrInp = Number(prompt("Enter the Number"));
+let usrOp = prompt("Enter the Operation");
 
+if(usrOp !== 1 || usrOp !== 2 || usrOp !== 3 || usrOp !== 4){
+    console.log('Operation not Supported');
+}
+else{
+    let num1 = Number(prompt("Enter Number")) ;
+    let num2 = Number(prompt("Enter Second Number")) ;
+    switch (usrOp){
+        case 1 : 
+        console.log(num1 + num2);
+        break ;
+
+        case 2 :
+        console.log(num1 - num2);
+        break;
+
+        case 3 :
+        console.log(num1 * num2);
+        break;
+
+        case 4 :
+        console.log(num1/num2);
+        break;
+
+        default{
+            
+        }
+    }
+}
 
